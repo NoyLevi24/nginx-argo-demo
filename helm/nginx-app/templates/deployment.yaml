@@ -40,6 +40,7 @@ spec:
                 secretKeyRef:
                   name: my-nginx-secret 
                   key: API_KEY    
+                  optional: true
 
           ports:
             - name: http
